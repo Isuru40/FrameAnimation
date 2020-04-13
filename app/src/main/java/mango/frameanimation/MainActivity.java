@@ -32,28 +32,28 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-// this is for only animation below 3 useing animate.xml
-//        ani.start();
-//        Handler mahadler=new Handler();
-//        mahadler.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                ani.stop();
-//            }
-//        },5000);//5 seconda
-//        return super.onTouchEvent(event);
+this is for only animation below 3 useing animate.xml
+       ani.start();
+       Handler mahadler=new Handler();
+       mahadler.postDelayed(new Runnable() {
+           @Override
+           public void run() {
+               ani.stop();
+           }
+       },5000);//5 seconda
+       return super.onTouchEvent(event);
       //animate.xml
 
         //this is fade in
 
-        Handler mahadler=new Handler();
-        mahadler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Animation startanimation= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
-                bat.startAnimation(startanimation);
-            }
-        },60);//ms
+//         Handler mahadler=new Handler();
+//         mahadler.postDelayed(new Runnable() {
+//             @Override
+//             public void run() {
+//                 Animation startanimation= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+//                 bat.startAnimation(startanimation);
+//             }
+//         },60);//ms
         return super.onTouchEvent(event);
         //fade in
 
