@@ -46,14 +46,14 @@ this is for only animation below 3 useing animate.xml
 
         //this is fade in
 
-        Handler mahadler=new Handler();
-        mahadler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Animation startanimation= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
-                bat.startAnimation(startanimation);
-            }
-        },60);//ms
+//         Handler mahadler=new Handler();
+//         mahadler.postDelayed(new Runnable() {
+//             @Override
+//             public void run() {
+//                 Animation startanimation= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+//                 bat.startAnimation(startanimation);
+//             }
+//         },60);//ms
         return super.onTouchEvent(event);
         //fade in
 
