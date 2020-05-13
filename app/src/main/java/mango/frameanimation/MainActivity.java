@@ -54,7 +54,7 @@ this is for only animation below 3 useing animate.xml
 //                 bat.startAnimation(startanimation);
 //             }
 //         },60);//ms
-        return super.onTouchEvent(event);
+      //  return super.onTouchEvent(event);
         //fade in
 
     }
