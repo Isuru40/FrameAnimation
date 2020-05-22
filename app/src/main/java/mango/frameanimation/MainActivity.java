@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 //        ani=(AnimationDrawable)bat.getBackground();
 //animate.xml
         // for fade in seen
-        bat=(ImageView)findViewById(R.id.batID);
+      //  bat=(ImageView)findViewById(R.id.batID);
        //
 
 
