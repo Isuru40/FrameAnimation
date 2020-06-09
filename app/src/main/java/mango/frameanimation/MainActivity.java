@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 // this is for only animation below 3 useing animate.xml
-//        bat=(ImageView)findViewById(R.id.batID);
-//        bat.setBackgroundResource(R.drawable.animate);
-//        ani=(AnimationDrawable)bat.getBackground();
+       bat=(ImageView)findViewById(R.id.batID);
+       bat.setBackgroundResource(R.drawable.animate);
+       ani=(AnimationDrawable)bat.getBackground();
 //animate.xml
         // for fade in seen
-      //  bat=(ImageView)findViewById(R.id.batID);
+       bat=(ImageView)findViewById(R.id.batID);
        //
 
 
